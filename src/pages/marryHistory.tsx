@@ -338,10 +338,14 @@ const MarryHistory: NextPage = () => {
             {stepDialog === 21 && (
               <DialogButton text="Toque aqui para continuar." Person="Felipe" />
             )}
+           
             {stepDialog === 21 && (
-              <video height="500" width="500" controls>
+              <div className="flex justify-center items-center">
+              
+              <video height="200" width="200" controls>
                 <source src="/video.mp4" type="video/mp4" />
               </video>
+              </div>
             )}
 
             {stepDialog === 22 && (

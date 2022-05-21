@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <div className="h-screen home flex justify-center items-center flex-col relative">
       <div className="flex justify-center items-center flex-col text-center">
         <div className="bg-slate-600/30 p-4">
-          <h1 className="text-8xl text-yellowTexT my-5">Marry Fantasy</h1>
+          <h1 className="text-3xl text-yellowTexT my-5">Marry Fantasy</h1>
           <h2 className="text-3xl">Comece a sua História!</h2>
         </div>
         <Link href="/marryHistory">
