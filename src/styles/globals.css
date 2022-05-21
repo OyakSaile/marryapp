@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+  background-image: url("../../public/home.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-family: "Press Start 2P";
+}
+
+h2 {
+  font-family: "MedievalSharp", cursive;
+}
+
+p {
+  font-family: "Press Start 2P", cursive;
+}
+
+.dialog1 {
+  background-image: url("../../public/dialog1.png") !important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.dialog2 {
+  background-image: url("../../public/dialog2.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.battle {
+  background-image: url("../../public/battleplace.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.temporary-bounce {
+  -webkit-animation-iteration-count: 2;
+  animation-iteration-count: 2;
+}
