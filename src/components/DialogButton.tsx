@@ -8,7 +8,7 @@ interface IButtonProps {
 export function DialogButton({ className, text, Person }: IButtonProps) {
   return (
     <button
-      className={`${className} w-96 bg-Dialog p-3  text-textDialog text-left rounded-md  relative   animate-pulse temporary-bounce`}
+      className={`${className} w-80 bg-Dialog p-3  text-textDialog text-left rounded-md  relative   animate-pulse temporary-bounce`}
     >
       <span className="absolute -top-7 left-4 w-40 bg-person p-2 text-center rounded-md">
         {Person ? Person : "Narrator"}

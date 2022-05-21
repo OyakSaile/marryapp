@@ -11,6 +11,7 @@ module.exports = {
         Dialog: '#fbedd9',
         textDialog: '#383838',
         person: '#322512',
+        white: '#ffffff',
       }
     },
   },
