@@ -14,10 +14,10 @@ const MarryHistory: NextPage = () => {
     <>
       {step === 0 && (
         <div className="h-screen dialog1 flex justify-center items-center flex-col relative">
-          <div className="absolute left-0 top-43">
+          <div className="absolute left-0 top-64">
             <Image alt="a" src="/mr.png" height={204} width={253} />
           </div>
-          <div className="absolute right-0 top-43">
+          <div className="absolute right-0 top-72">
             {stepDialog === 1 && (
               <Image alt="a" src="/fr.png" height={216} width={146} />
             )}
