@@ -15,7 +15,7 @@ export function DialogButton({ className, text, Person }: IButtonProps) {
       </span>
       {text}
       <div className="text-white absolute right-4 bottom-3 animate-bounce">
-        <Image src="/chevron-down.svg" height={24} width={24} />
+        <Image src="/chevron-down.svg" height={24} width={24} alt="a" />
       </div>
     </button>
   );

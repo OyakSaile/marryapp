@@ -1,11 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import Router, { useRouter } from "next/router";
 import { useState } from "react";
 import { DialogButton } from "../components/DialogButton";
-
+import Image from 'next/image'
 const MarryHistory: NextPage = () => {
   const [step, setStep] = useState(0);
   const [stepDialog, setStepDialog] = useState(0);
@@ -16,15 +15,15 @@ const MarryHistory: NextPage = () => {
       {step === 0 && (
         <div className="h-screen dialog1 flex justify-center items-center flex-col relative">
           <div className="absolute left-0 top-43">
-            <Image src="/mr.png" height={204} width={253} />
+            <Image alt="a" src="/mr.png" height={204} width={253} />
           </div>
           <div className="absolute right-0 top-43">
             {stepDialog === 1 && (
-              <Image src="/fr.png" height={216} width={146} />
+              <Image alt="a" src="/fr.png" height={216} width={146} />
             )}
 
             {stepDialog >= 2 && (
-              <Image src="/fl.png" height={224} width={216} />
+              <Image alt="a" src="/fl.png" height={224} width={216} />
             )}
           </div>
 
@@ -97,15 +96,15 @@ const MarryHistory: NextPage = () => {
       {step == 2 && (
         <div className="h-screen dialog2 flex justify-center items-center flex-col relative">
           <div className="absolute left-0 top-43">
-            <Image src="/mr.png" height={204} width={253} />
+            <Image alt="a" src="/mr.png" height={204} width={253} />
           </div>
           <div className="absolute right-0 top-43">
             {stepDialog === 1 && (
-              <Image src="/fr.png" height={216} width={146} />
+              <Image alt="a" src="/fr.png" height={216} width={146} />
             )}
 
             {stepDialog >= 2 && (
-              <Image src="/fl.png" height={224} width={216} />
+              <Image alt="a" src="/fl.png" height={224} width={216} />
             )}
           </div>
           <div
@@ -146,7 +145,7 @@ const MarryHistory: NextPage = () => {
                 console.log(`step`, step), console.log(stepDialog);
               }}
             >
-              <Image src="/alliance.png" height={100} width={100} />
+              <Image alt="a" src="/alliance.png" height={100} width={100} />
               <h1 className="mt-5">
                 Você encontrou, uma aliança de casamento.
               </h1>
@@ -156,19 +155,19 @@ const MarryHistory: NextPage = () => {
           )}
           <div className="absolute left-0 top-43">
             {stepDialog <= 10 && (
-              <Image src="/mr.png" height={204} width={253} />
+              <Image alt="a" src="/mr.png" height={204} width={253} />
             )}
           </div>
           <div className="absolute right-0 top-43">
             {stepDialog <= 10 && (
-              <Image src="/fl.png" height={224} width={216} />
+              <Image alt="a" src="/fl.png" height={224} width={216} />
             )}
           </div>
           <div className="absolute right-24 top-32">
             {stepDialog <= 12 ? (
-              <Image src="/orcimg.png" height={224} width={216} />
+              <Image alt="a" src="/orcimg.png" height={224} width={216} />
             ) : orc ? (
-              <Image
+              <Image alt="a"
                 src="/deadorc.png"
                 height={224}
                 width={216}
@@ -183,13 +182,13 @@ const MarryHistory: NextPage = () => {
 
           {/* <div className="absolute right-24 top-32">
             {stepDialog >= 13 && (
-              <Image src="/deadorc.png" height={224} width={216} />
+              <Image alt="a" src="/deadorc.png" height={224} width={216} />
             )}
           </div> */}
 
           <div className="absolute right-8 bottom-8">
             {stepDialog > 10 && (
-              <Image src="/battleguy.png" height={224} width={216} />
+              <Image alt="a" src="/battleguy.png" height={224} width={216} />
             )}
           </div>
 
@@ -257,15 +256,15 @@ const MarryHistory: NextPage = () => {
       {step == 4 && (
         <div className="h-screen battle flex justify-center items-center flex-col relative">
           <div className="absolute left-0 top-43">
-            <Image src="/mr.png" height={204} width={253} />
+            <Image alt="a" src="/mr.png" height={204} width={253} />
           </div>
           <div className="absolute right-0 top-43">
             {stepDialog === 1 && (
-              <Image src="/fr.png" height={216} width={146} />
+              <Image alt="a" src="/fr.png" height={216} width={146} />
             )}
 
             {stepDialog >= 2 && (
-              <Image src="/fl.png" height={224} width={216} />
+              <Image alt="a" src="/fl.png" height={224} width={216} />
             )}
           </div>
           <div
@@ -313,15 +312,15 @@ const MarryHistory: NextPage = () => {
       {step == 5 && (
         <div className="h-screen battle flex justify-center items-center flex-col relative">
           <div className="absolute left-0 top-43">
-            <Image src="/mr.png" height={204} width={253} />
+            <Image alt="a" src="/mr.png" height={204} width={253} />
           </div>
           <div className="absolute right-0 top-43">
             {stepDialog === 1 && (
-              <Image src="/fr.png" height={216} width={146} />
+              <Image alt="a" src="/fr.png" height={216} width={146} />
             )}
 
             {stepDialog >= 2 && (
-              <Image src="/fl.png" height={224} width={216} />
+              <Image alt="a" src="/fl.png" height={224} width={216} />
             )}
           </div>
           <div
